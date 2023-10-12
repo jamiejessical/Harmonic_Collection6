@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("/fonts/Avenir.ttc");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Paperland";
+    src: url("/fonts/Paperland.ttf");
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+.Home {
+    background-color: black;
+    position: relative;
+    margin: 0px;
+    height: 1200px;
+    width: 1600px;
+    padding: 0%;
+}
+
+.basket {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.headline {
+    position: absolute;
+    margin: 0px;
+    top: 450px;
+    left: 300px;
+    z-index: 9;
+}
+
+.food {
+    position: relative;
+    z-index: 9;
+}
+
+#spinach {
+    position: absolute;
+    top: -980px;
+    left: 850px;
+}
+
+#spinach:hover {
+    position: absolute;
+    top: -1000px;
+    left: 850px;
+    scale: 130%;
+}
+
+#egg {
+    position: absolute;
+    top: -900px;
+    left: 1100px;
+}
+
+#egg:hover {
+    position: absolute;
+    top: -900px;
+    left: 1150px;
+    scale: 130%;
+}
+
+#chick {
+    position: absolute;
+    top: -750px;
+    left: 900px;
+    transform: rotate(-15deg);
+}
+
+#chick:hover {
+    position: absolute;
+    top: -750px;
+    left: 950px;
+    transform: rotate(-15deg);
+    scale: 130%;
+}
+
+#fish {
+    position: absolute;
+    top: -1080px;
+    left: 200px;
+    z-index: 3;
+}
+
+#fish:hover {
+    position: absolute;
+    top: -1130px;
+    left: 170px;
+    scale: 130%;
+}
+
+#quinoa {
+    position: absolute;
+    top: -480px;
+    left: 1150px;
+    z-index: 3;
+}
+
+#quinoa:hover {
+    position: absolute;
+    top: -500px;
+    left: 1250px;
+    scale: 130%;
+}
+
+
+#shroom {
+    position: absolute;
+    top: -480px;
+    left: 950px;
+}
+
+#shroom:hover {
+    position: absolute;
+    top: -480px;
+    left: 1000px;
+    scale: 130%;
+}
+
+h1 {
+    font-family: "Paperland";
+    font-size: 120px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    line-height: 80%;
+    color: beige;
+    margin: 0px;
+    margin-top: -10px;
+    text-wrap: nowrap;
+}
+
+h2 {
+    font-family: "Avenir";
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+    margin-left: 150px;
+    padding: 4px;
+    background-color: #db0000;
+    height: fit-content;
+    width: fit-content;
+    transform: rotate(-3deg);
+}
+
+h3 {
+    font-family: "Avenir";
+    font-size: 35px;
+    color: beige;
+    margin: 0px;
+}
